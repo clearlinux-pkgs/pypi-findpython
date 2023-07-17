@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-findpython
-Version  : 0.3.0
-Release  : 3
-URL      : https://files.pythonhosted.org/packages/7b/35/8edee643b70783adda91c29c3ba7a48816d03944c63d4e41ef65ec086af6/findpython-0.3.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/7b/35/8edee643b70783adda91c29c3ba7a48816d03944c63d4e41ef65ec086af6/findpython-0.3.0.tar.gz
+Version  : 0.3.1
+Release  : 4
+URL      : https://files.pythonhosted.org/packages/5f/f1/e41623e7952500b0b0a259dcc3c3383800eb97da74772fb8b023464855ca/findpython-0.3.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/5f/f1/e41623e7952500b0b0a259dcc3c3383800eb97da74772fb8b023464855ca/findpython-0.3.1.tar.gz
 Summary  : A utility to find python versions on your system
 Group    : Development/Tools
 License  : MIT
@@ -67,10 +67,10 @@ python3 components for the pypi-findpython package.
 
 
 %prep
-%setup -q -n findpython-0.3.0
-cd %{_builddir}/findpython-0.3.0
+%setup -q -n findpython-0.3.1
+cd %{_builddir}/findpython-0.3.1
 pushd ..
-cp -a findpython-0.3.0 buildavx2
+cp -a findpython-0.3.1 buildavx2
 popd
 
 %build
@@ -78,7 +78,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689175651
+export SOURCE_DATE_EPOCH=1689611753
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

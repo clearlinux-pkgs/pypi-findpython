@@ -1,5 +1,5 @@
 PKG_NAME := pypi-findpython
-URL = https://files.pythonhosted.org/packages/5f/f1/e41623e7952500b0b0a259dcc3c3383800eb97da74772fb8b023464855ca/findpython-0.3.1.tar.gz
+URL = https://files.pythonhosted.org/packages/9f/8b/b58064e28219d08905116692192e34fde978c736c3c4af55dae8d16afa95/findpython-0.4.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

@@ -5,7 +5,7 @@
 #
 Name     : pypi-findpython
 Version  : 0.4.0
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/9f/8b/b58064e28219d08905116692192e34fde978c736c3c4af55dae8d16afa95/findpython-0.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9f/8b/b58064e28219d08905116692192e34fde978c736c3c4af55dae8d16afa95/findpython-0.4.0.tar.gz
 Summary  : A utility to find python versions on your system

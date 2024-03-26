@@ -6,10 +6,10 @@
 # autospec commit: c02b2fe
 #
 Name     : pypi-findpython
-Version  : 0.5.1
-Release  : 10
-URL      : https://files.pythonhosted.org/packages/6a/47/c7fc524a807811411eda44c5d5fb2015735c7f30b065ba256b3a9e1f1d7b/findpython-0.5.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/6a/47/c7fc524a807811411eda44c5d5fb2015735c7f30b065ba256b3a9e1f1d7b/findpython-0.5.1.tar.gz
+Version  : 0.6.0
+Release  : 11
+URL      : https://files.pythonhosted.org/packages/88/98/d3884ebd9f49213cab7b964ec9e415e7efbcf00327f061105c46da22361d/findpython-0.6.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/88/98/d3884ebd9f49213cab7b964ec9e415e7efbcf00327f061105c46da22361d/findpython-0.6.0.tar.gz
 Summary  : A utility to find python versions on your system
 Group    : Development/Tools
 License  : MIT
@@ -69,10 +69,10 @@ python3 components for the pypi-findpython package.
 
 
 %prep
-%setup -q -n findpython-0.5.1
-cd %{_builddir}/findpython-0.5.1
+%setup -q -n findpython-0.6.0
+cd %{_builddir}/findpython-0.6.0
 pushd ..
-cp -a findpython-0.5.1 buildavx2
+cp -a findpython-0.6.0 buildavx2
 popd
 
 %build
@@ -80,7 +80,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1711373451
+export SOURCE_DATE_EPOCH=1711463496
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
